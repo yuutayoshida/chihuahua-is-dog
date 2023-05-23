@@ -1,15 +1,22 @@
 ---
+import BaseLayout from "../layouts/BaseLayout.astro";
+const pageTitle = "Chihuahua-is-dog";
 ---
+<BaseLayout pageTitle={pageTitle}>
+	<h2>Yoshida DEMO's</h2>
+	<ul>
+		<li><a href="/webgl_school/">WebGL School works</a></li>
+	</ul>
+</BaseLayout>
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<style lang="scss">
+    h2, li{
+		text-align: center;
+	}
+	ul{
+		list-style: none;
+	}
+	a{
+		text-decoration: none;
+	}
+</style>
