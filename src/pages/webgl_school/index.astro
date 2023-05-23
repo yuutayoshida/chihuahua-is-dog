@@ -1,0 +1,22 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+const pageTitle = "WebGL School works";
+---
+<BaseLayout pageTitle={pageTitle}>
+	<h2>WebGL School works</h2>
+    <ul>
+		<li><a href="/webgl_school/demo-1">DEMO 1</a></li>
+	</ul>
+</BaseLayout>
+
+<style lang="scss">
+    h2, li{
+		text-align: center;
+	}
+	ul{
+		list-style: none;
+	}
+    a{
+		text-decoration: none;
+	}
+</style>
