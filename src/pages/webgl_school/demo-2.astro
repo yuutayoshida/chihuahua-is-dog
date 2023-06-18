@@ -1,0 +1,17 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import WebglElm from "../../components/WebglElm.astro";
+const pageTitle = "WebGL School works | demo 2";
+---
+<BaseLayout pageTitle={pageTitle}>
+	<WebglElm></WebglElm>
+    <script>
+        import "../../scripts/demo-2/app.js";
+    </script>
+</BaseLayout>
+
+<style lang="scss">
+    body{
+        position: relative;
+    }
+</style>

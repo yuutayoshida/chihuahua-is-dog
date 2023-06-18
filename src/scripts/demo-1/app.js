@@ -1,6 +1,6 @@
 // 必要なモジュールを読み込み
-import * as THREE from '../scripts/lib/three.module.js';
-import { OrbitControls } from '../scripts/lib/OrbitControls.js';
+import * as THREE from '../../scripts/lib/three.module.js';
+import { OrbitControls } from '../../scripts/lib/OrbitControls.js';
 import { gsap } from 'gsap';
 
 // DOM がパースされたことを検出するイベントを設定

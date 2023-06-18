@@ -12,6 +12,10 @@
   "dependencies": {
     "astro": "^2.4.1",
     "gsap": "^3.11.5",
-    "sass": "^1.62.1"
+    "sass": "^1.62.1",
+    "three": "^0.153.0"
+  },
+  "devDependencies": {
+    "lil-gui": "^0.18.2"
   }
 }
