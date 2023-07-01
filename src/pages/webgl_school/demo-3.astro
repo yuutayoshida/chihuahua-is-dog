@@ -1,0 +1,33 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import WebglElm from "../../components/WebglElm.astro";
+const pageTitle = "WebGL School works | demo 3";
+---
+<BaseLayout pageTitle={pageTitle}>
+	<WebglElm></WebglElm>
+    <ul class="lisence_list">
+        <li>"Low Poly Earth" (<a href="https://skfb.ly/6SNB8">https://skfb.ly/6SNB8</a>) by Konstantin_Keller is licensed under Creative Commons Attribution (<a href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</a>).</li>
+        <li>"Simple Airplane" (<a href="https://skfb.ly/6ZEEO">https://skfb.ly/6ZEEO</a>) by reduxdev is licensed under Creative Commons Attribution (<a href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</a>).</li>
+    </ul>
+    <script src="../../scripts/demo-3/app.js"></script>
+</BaseLayout>
+
+<style lang="scss">
+    body{
+        position: relative;
+    }
+    .lisence_list {
+        position: fixed;
+        padding-left: 6px;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        list-style: none;
+        font-size: clamp(12px, 0.8vw, 16px);
+        a {
+            text-decoration: none;
+            color: inherit;
+
+        }
+    }
+</style>
