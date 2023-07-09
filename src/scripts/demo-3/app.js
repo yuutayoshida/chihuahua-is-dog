@@ -124,8 +124,8 @@ class App3 {
     load() {
         return new Promise((resolve) => {
             const gltfLoader = new GLTFLoader();
-            const gltfEarthPath = '/src/scripts/demo-3/models/earth.glb';
-            const gltfAirplanePath = '/src/scripts/demo-3/models/airplane.glb';
+            const gltfEarthPath = '/assets/models/demo-3/earth.glb';
+            const gltfAirplanePath = '/assets/models/demo-3/airplane.glb';
             gltfLoader.load(gltfEarthPath, (gltfEarth) => {
                 this.earth = gltfEarth.scene;
                 this.earth = gltfEarth.scene;
